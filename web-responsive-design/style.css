@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px;
+}
+.row{
+    width: 100;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-1{
+    background-color: #03d29f;
+    position: relative;
+    flex: 1;
+    max-width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.card-2{
+    background-color: #50a7ff;
+    position: relative;
+    flex: 1;
+    max-width: 310px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.card-3{
+    background-color: #FF7675;
+    position: relative;
+    flex: 1;
+    max-width: 640px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+}
+@media (max-width:800px) {
+    .card-1{
+        flex: 100%;
+        max-width: 600px;
+    }
+}
+@media (max-width:800px) {
+    .card-2{
+        flex: 100%;
+        max-width: 600px;
+    }
+}
+@media (max-width:800px) {
+    .card-3{
+        flex: 100%;
+        max-width: 600px;
+    }
+}

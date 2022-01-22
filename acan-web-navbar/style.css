@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: gainsboro;
+    background-image: url(images/background.png);
+}
+.nav-menu{
+
+box-shadow: 0px 0px 10px gray;
+margin: 5px 5px 5px;
+background-image: linear-gradient(0,0,0,0.7);
+padding: 10px 0;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+.nav-item{
+    list-style: none;
+    margin-right: 10px; 
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+.nav-item:first-child{  
+ margin: auto;
+ margin-left: 50px;
+}
+.nav-item a:hover{
+    color: white;
+}
+.btn-pri{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background: rgb(69, 126, 69);
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    color: white;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+.btn-pri:hover{
+    background: yellowgreen;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.col{
+    flex-basis: 50%;
+}
+.col p{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.col h1{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.btn-second{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background:#fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    transition: transform 0.5s;
+    
+}
+button:hover{
+    transform: translateY(-10px);
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(images/pic-3.png);
+}
+.card2{
+    background-image: url(images/pic-2.png);
+}
+.card3{
+    background-image: url(images/pic-1.png);
+}
+.card4{
+    background-image: url(images/pic-4.png);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}

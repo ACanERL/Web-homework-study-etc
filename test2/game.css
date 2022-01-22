@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.choose-container{
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    justify-content: center;
+    font-size: 1.5rem;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(56, 28, 85);
+    background-color: #fff;
+}
+.container-flex{    
+    margin-top: 3rem;
+}
+.choose-prefix{
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #000;
+}
+.prefix{
+    padding: 0.5rem 1rem;
+    background-color: #562585;
+    color: #fff;
+}
+.choose-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(15, 15, 15);
+    transform: translateY(-0.1rem);
+    transition:transform 150ms; 
+    
+}
+.question{
+  display: flex;
+  font-size: 1.7rem;
+}
